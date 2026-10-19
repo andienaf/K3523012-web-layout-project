@@ -1,0 +1,244 @@
+@font-face {
+    font-family: fontJudul;
+    src: url('Vogue.ttf');
+}
+
+@font-face {
+    font-family: fontSubjudul;
+    src: url('Giarek.ttf');
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#header {
+    background-image: url('https://i.pinimg.com/564x/42/dd/6d/42dd6d3313c44e70f349679150f2a4f0.jpg');
+    border-bottom-right-radius: 50px;
+    background-size: cover;
+    background-position: center;
+    width: 730px;
+    font-family: Helvetica;
+    height: 300px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    float: right
+}
+
+#judul {
+    font-family: fontJudul;
+    font-size: 50px;
+    text-align: right;
+    padding: 200px 40px 0 0
+}
+
+#judul a {
+    color: white;
+    text-decoration: none;
+}
+
+.subjudul {
+    font-family: fontSubjudul;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+    padding: 0 40px 0 0;
+}
+
+#nav ul {
+    float: right;
+    background: rgb(151, 255, 47);
+    padding: 0 0px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    list-style: none;
+    width: 730px;
+}
+
+#nav ul li {
+    float: left;
+    transition: background-color 0.5s ease;
+}
+
+#nav ul li:hover {
+    background: rgb(88, 173, 4);
+}
+
+#nav ul li a {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#nav ul li:hover {
+    color: white;
+}
+
+#nav ul li:hover>ul {
+    display: block;
+}
+
+#nav ul ul {
+    background: rgb(88, 173, 4);
+    position: absolute;
+    padding: 0;
+    top: 100%;
+    display: none;
+    width: auto;
+}
+
+#nav ul ul li {
+    float: none;
+    position: relative;
+}
+
+#nav ul ul li a {
+    padding: 10px 44.5px;
+    color: white;
+}
+
+#nav ul ul li a:hover {
+    background: rgb(151, 255, 47);
+    color: white;
+}
+
+#nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+#aside {
+    position: fixed;
+    border-top-left-radius: 50px;
+    background-color: white;
+    width: 250px;
+    height: auto;
+    margin: 0 0 20px;
+    float: left;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25);
+    float: left
+}
+
+#aside ul {
+    margin: 0 0 20px 20px;
+    padding: 0;
+    list-style: none;
+    width: 200px;
+}
+
+#aside li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#aside h4 {
+    text-align: center;
+    padding: 5px 12px;
+    color: white;
+    background: rgb(88, 173, 4)
+}
+
+#aside a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    color: black;
+    border-bottom: 1px dotted rgb(151, 255, 47);
+    transition: background-color 0.5s ease;
+}
+
+#aside a:hover {
+    background: rgb(151, 255, 47);
+    color: white;
+    border-radius: 25px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+#content {
+    background-color: white;
+    width: 690px;
+    height: auto;
+    margin: 0 0 20px;
+    padding: 0 20px;
+    float: right;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25)
+}
+
+#section {
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25)
+}
+
+.gambar {
+    width: 180px;
+    margin: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .25)
+}
+
+.heading {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(88, 173, 4);
+}
+
+.heading a {
+    text-decoration: none;
+}
+
+.article {
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+
+.article a {
+    text-decoration: none;
+}
+
+b a {
+    color: rgb(88, 173, 4);
+    text-decoration: none;
+}
+
+b a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 200;
+    height: 200
+}
+
+#footer {
+    background-color: rgb(88, 173, 4);
+    padding: 20px 0 0 0;
+    width: 1000px;
+    height: 90px;
+    clear: both;
+    margin: 20 0;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
