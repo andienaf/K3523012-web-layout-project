@@ -1,3 +1,7 @@
+Sertifikat Magang
+<img width="900" height="1278" alt="sertif magang" src="https://github.com/user-attachments/assets/67948c8e-e9a4-4492-8c42-caa08016a85a" />
+
+
 # Web Layout Portfolio - NCT Universe Information Page
 
 Selamat datang di repository proyek portofolio saya. Proyek ini dikembangkan sebagai bagian dari tugas mata kuliah Desain Web untuk mendemonstrasikan pemahaman dan penerapan fundamental *front-end web development* menggunakan HTML5 dan CSS3.
